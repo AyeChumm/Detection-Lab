@@ -25,11 +25,14 @@ This Detection Lab project aimed to establish a controlled environment for simul
 2. Configure VMs:
 ![internal network](https://github.com/user-attachments/assets/f7cc3d1b-939b-4918-ae2d-d0cea180a57c)
 _Figure 1: Changed the network setting to Internal Network to ensure a secure environment and isolated communication between multiple VMs especially when executing malware. I do this for both VMs._
+
 ![statically configure IP](https://github.com/user-attachments/assets/ab444a7d-4c4c-4692-8ccf-0861d7594f3b)
 ![Kali manually IP](https://github.com/user-attachments/assets/6964769b-13e3-42f7-a044-4170eaa27a14)
 _Figures 2 & 3: I manually configured both VMs' IPs to be on the same network (Windows= 192.168.100.1 | Kali Linux= 192.168.100.2)_
+
 ![Cofirming IP change](https://github.com/user-attachments/assets/5e574eae-2efc-4491-a257-e53fb15e187a)
 _Figure 4: Check that both VMs' IPs have been successfully changed using ipconfig/ifconfig._
+
 ![Windows pinging Kali](https://github.com/user-attachments/assets/1e13cdfd-0f0a-48a1-8708-922e0497f0c2)
 _Figure 5: Using Windows 10, I ping the Kali Linux VM to ensure that there is a connection. I did not ping from Kali Linux to Windows as Windows 10's Firewall was blocking ICMP traffic._
 
