@@ -1,4 +1,4 @@
-Detection Lab
+Detection Lab Project
 
 ## Objective
 
